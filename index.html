@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SWIPER CDN LINKS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./stylesheet/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- SWIPER CDN LINKS -->
+    <script src="./stylesheet/all.js"></script>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.nadesttu.com</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-bar">
+            <div class="nav-left">
+                <a href="#hero-section"><img class="nadetssulogo" src="./images/NADETSSU LOGO.jpg" alt=""></a>
+
+                <a href="#hero-section">
+                    <div class="logo-caption">
+                        <p>NATIONAL ASSOCIATIONAL</p>
+                        <p>OF DELTA STATE</p>
+                        <p>STUDENTS</p>    
+                    </div>
+                </a>                
+
+            </div>
+            <ul class="nav-center">
+        
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#about-us-section">About Us</a></li>
+                <li><a href="#gallery-section">Gallery</a></li>
+                <li><a href="#excos-section">Executives</a></li>
+                <li><a href="#excos-section">Contact Us</a></li>
+            </ul>
+            
+            <div class="nav-right">
+                <a href="./joinUs.html"><button class="join-us"> Join Us </button> </a>
+                <div onclick="menuClick()" class="fa-solid fa-bars" id="menu-icon"></div>
+            </div>
+            
+        </nav>
+        <main id="hero-section">
+            <div class="main-1">
+                <h1>National Association of Delta State Student</h1>
+                <p>(OAU CHAPTER)</p>
+            </div>
+            <a href="./joinUs.html"><button class="join-middle">Join Now</button> </a>
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+        </main>
+        <section id="about-us-section">
+            <div class="about-left"><img src="./images/about.png" alt=""></div>
+            <div class="about-right">
+                <h3 class="sub-heading">About Us</h3>
+                <p id="about-text">The National Association of Delta State Students at Obafemi Awolowo University (OAU) is a student-run organization that represents the interests of students from Delta State who are enrolled at OAU. The organization provides a platform for these students to come together, network, and engage in activities that promote their welfare and well-being.<span id="dots">...</span> <span id="more">  The association also serves as a liaison between the students and the university administration, working to address any issues or concerns that may arise. The association also serves as a means of fostering unity among students from Delta State and promoting their cultural heritage. The association is usually run by an elected executive council consisting of a president, vice-president, secretary, treasurer, and other members. They are responsible for organizing events and activities, communicating with members, and representing the interests of the group to the university administration. These activities can include social events, cultural celebrations, community service projects, and advocacy efforts.The association also serve as a resource for students, providing information about university services and opportunities. Additionally, it provides mentorship and networking opportunities for its members, helping them to connect with other students from their home state and prepare for life after graduation. </span></p>
+                <button id="read-more-btn" class="read-more" onclick="toReadMore()">read more</button>
+            </div>
+        </section>
+        <section class="swiper" id="excos-section">
+            <div class="slide-content">
+                <h3 class="sub-heading">Our Excos</h3>
+                <div class="swiper-wrapper excos-container">
+                    <div class="swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2348121256965"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: chidinma23467@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/ilcon_2022_chidinma.jpeg" alt="image of excos president" class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name">CHIDINMA NWODU</p>
+                            <p class="excos-position">President</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2348146264368"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: starletdisi@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/ESE.JPG" alt="image of excos president" class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name">DISI BLESSING ESEOGHENE</p>
+                            <p class="excos-position">Vice President</p>
+                        </div>
+                    </div>
+                    <div class=" swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2349130481772"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: progressokorugbo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/PROGRESS.JPG" alt="image of excos president" class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name"> PROGRESS OBAROOGHENE </p>
+                            <p class="excos-position">General Secretary</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2349020377653"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: kprakechristabel0@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/CHRISTABEL.jpg" alt="image of excos " class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name"> KPRAKE CHRISTABEL</p>
+                            <p class="excos-position">Asst. General Secretary</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2348140340036"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: evumenasamantha@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/SAMANTHA.jpg" alt="image of excos " class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name"> SAMANTHA EVUMENA</p>
+                            <p class="excos-position">Financial Secretary</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2348136201537"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: eziafakegoanna@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/ANNA.jpg" alt="image of excos president" class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name"> ANNA EZIAFAKEGO</p>
+                            <p class="excos-position"> TREASURER</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2347069543436"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: nwanewill2002@gmail.com "><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/EMEKA PRO.jpg" alt="image of excos president" class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name"> CHUKWUEMEKA OBADA</p>
+                            <p class="excos-position"> Public Relation Officer</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2347069543436"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: nwanewill2002@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/EBUBE DOS.jpg" alt="image of excos president" class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name"> Ebube Onyekponwane </p>
+                            <p class="excos-position">Director of Socials</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide excos-card">
+                        <div class="icons-div">
+                            <a href="https://api.whatsapp.com/send?phone=2349130481772"><i class="fa-brands fa-square-whatsapp"></i></a>
+                            <a href="mailto: progressokorugbo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <div class="tool-tips-1">Connect via whatsapp</div>
+                            <div class="tool-tips-2">Connect via mail</div>
+                            </div>
+                            <div class="excos-background"></div>
+                        <div class="excos-img-container">
+                            <img src="./images/OLAMIRE.HEIC" alt="image of excos president" class="excos-img">
+                        </div>
+                        <div class="excos-img-caption">
+                            <p class="excos-name"> OLAMIRE PRECIOUS </p>
+                            <p class="excos-position">Welfare Director</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+      
+        </section>
+        <section class="swiper mySwiper" id="gallery-section">
+            <h3 class="sub-heading">Gallery</h3>
+            <div class="swiper-wrapper gallery-container">
+                <div class="gallery-card swiper-slide">
+                    <div class="gallery-img-container">
+                        <img class="gallery-img" src="./images/138.jpg" alt="image of an event on cultural day">
+                    </div>
+                    <p>Urhobo Cultural Day 2022</p>
+                </div>
+                <div class="gallery-card swiper-slide">
+                    <div class="gallery-img-container">
+                        <img class="gallery-img" src="./images/138.jpg" alt="image of an event on cultural day">
+                    </div>
+                    <p>Urhobo Cultural Day 2022</p>
+                </div>
+                <div class="gallery-card swiper-slide">
+                    <div class="gallery-img-container">
+                        <img class="gallery-img" src="./images/138.jpg" alt="image of an event on cultural day">
+                    </div>
+                    <p>Urhobo Cultural Day 2022</p>
+                </div>
+                <div class="gallery-card swiper-slide">
+                    <div class="gallery-img-container">
+                        <img class="gallery-img" src="./images/138.jpg" alt="image of an event on cultural day">
+                    </div>
+                    <p>Urhobo Cultural Day 2022</p>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+        <footer>
+            <div class="left-footer">
+                <a href="#"><img class="logo-footer" src="./images/NADETSSU LOGO.jpg" alt=""></a>
+                <p>National Association of Delta State Students (NADEDTTU OAU CHAPTER)</p>
+                <p>CONTACT US</p>
+                <div class="footer-icons">
+                    <div class="icon-circle">
+                        <a href="www.instagram.com/nadesstuoauileife"><i class="fa-brands fa-instagram footer-instagram"></i> </a>                   
+                    </div>
+                    <div class="icon-circle">
+                        <a href="https://api.whatsapp.com/send?phone=2347069543436"><i class="fa-brands fa-whatsapp footer-whatsapp"></i></a>
+                        
+                    </div>
+                    <div class="icon-circle">
+                        <a href="mailto: nadesstuoauileife@gmail.com"><i class="fa-solid fa-envelope footer-mail"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="right-footer">
+                <p>Links</p>
+                <ul>
+                    <li><a href="#hero-section">Home</a></li>
+                    <li><a href="./joinUs.html">Join Us</a></li>
+                    <li><a href="#about-us-section">About Us</a></li>
+                    <li><a href="#excos-section"> Executives </a></li>
+                    <li><a href="#gallery-section"> Gallery </a></li>
+                </ul>
+            </div>
+        </footer>
+        <a id="developer" href="www.twitter.com/Michael__TJ"><span>Developed by Tejiri.dev</span></a>
+    </div>
+    <script>
+        var swiper = new Swiper(".slide-content", {
+          slidesPerView: 3,
+          spaceBetween: 25,
+          loop: false,
+          centerSlide: 'true',
+          fade: 'true',
+          grabCursor: 'true',
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints:{
+            0: {
+                slidesPerView: 1,
+            },
+            520: {
+                slidesPerView: 2,
+            },
+            900: {
+                slidesPerView: 3,
+            },
+            1440: {
+                slidesPerView: 4,               
+            },
+          },
+        });
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          slidesPerGroup: 1,
+          loop: false,
+          grabCursor: 'true',
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          breakpoints:{
+            0: {
+                slidesPerView: 1,
+            },
+            520: {
+                slidesPerView: 2,
+            },
+            900: {
+                slidesPerView: 2,
+            },
+            1440: {
+                slidesPerView: 3,               
+            },
+        }
+
+        });
+      </script>
+    <script src="./script/function.js" ></script>
+    <script src="./script/swiper-bundle.min.js" ></script>
+</body>
+</html>

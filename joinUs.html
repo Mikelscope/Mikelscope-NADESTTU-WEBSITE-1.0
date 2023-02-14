@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="./stylesheet/all.js"></script>
+
+    <link rel="stylesheet" href="./stylesheet/joinUs.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join NADETSSU</title>
+</head>
+<body>
+    <script>
+        let submitted = false;
+    </script>
+    <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='confirmation.html'}" src="" frameborder="0"></iframe>
+    <div class="container">
+        <div class="area" >
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+    
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-left">
+                <a href="./index.html"><img class="nadetssulogo" src="./images/NADETSSU LOGO.jpg" alt=""></a>
+
+                <a href="./index.html">
+                    <div class="logo-caption">
+                        <p>NATIONAL ASSOCIATIONAL</p>
+                        <p>OF DELTA STATE</p>
+                        <p>STUDENTS</p>    
+                    </div>
+                </a>                
+
+            </div>
+            <ul class="nav-center">
+        
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#about-us-section">About Us</a></li>
+                <li><a href="./index.html#gallery-section">Gallery</a></li>
+                <li><a href="./index.html#excos-section">Executives</a></li>
+                <li><a href="./index.html#contact-us">Contact Us</a></li>
+            </ul>
+            
+            <div class="nav-right">
+                <!-- <button class="join-us">Join Us </button>  -->
+                <div onclick="menuClick()" class="fa-solid fa-bars" id="menu-icon"></div>
+            </div>
+            
+        </nav>
+        <main>
+
+            <form method="post" target="hiddenConfirm" onsubmit="submitted=true" class="main-2" action="https://docs.google.com/forms/d/e/1FAIpQLSeB6IvPrC_LrGjWjLKxBwRrmslwuIpvTQb0REls29qNJbPwvg/formResponse">
+                
+
+                <section class="main-1">
+                    <a href=""><img class="nadetssulogo-2" src="./images/NADETSSU LOGO.jpg" alt="nadesttu logo"></a>
+                    <h1>NADESSTU OAU MEMBERSHIP FORM</h1>
+                    <ol>
+                        
+                        <li>You must be a registered student in Obafemi Awolowo University</li>
+                        <li>You must be an indigene of Delta State</li>
+                    </ol>
+                    
+                </section>
+    
+                <label id="surname-label" for="">Surname</label>
+                <input required type="text" name="entry.304136428" id="surname" placeholder="Enter surname">
+                <label for="">Other Names</label>
+                <input required type="text" name="entry.1042762335" id="other-names" placeholder="Enter other names">
+                <label for="">Gender</label>
+                <input type="radio" name="entry.320676216" id="" value="Male"><span>Male</span>
+                <input type="radio" name="entry.320676216" id="" value="Female"><span>Female</span> 
+                <label  for="">Email Address </label>
+                <input  required type="email" name="entry.849757483" id="email-address" placeholder="Enter email address">
+                <label for="">Whatsapp Number</label>
+                <input required type="number" name="entry.1000257833" id="whatsapp-number" placeholder="Enter whatsapp number">
+
+                <label for="">Are you a student of Obafemi Awolowo University?</label>
+                <input required type="radio" name="entry.1267407052" id="" value="Yes"><span>Yes</span>
+                <input type="radio" name="entry.1267407052" id="" value="No"><span>No</span> 
+                <label for="">Faculty</label>
+                <input required type="text" name="entry.1208348342" id="faculty" placeholder="Enter Faculty">
+                <label for="">Department</label>
+                <input required type="text" name="entry.249934123" id="department" placeholder="Enter Department">
+                  
+                <label for="">Are you an Indigene of Delta State?</label>
+                <input required type="radio" name="entry.711303027" id="" value="Yes"><span>Yes</span>
+                <input type="radio" name="entry.711303027" id="" value="No"><span>No</span> 
+                <label for="">Local Government</label>
+                <select required name="entry.1447971014" id="">
+                    <option value="Aniocha">Aniocha</option>
+                    <option value="Bomadi">Bomadi</option>
+                    <option value="Burutu">Burutu</option>
+                    <option value="Ethiope">Ethiope</option>
+                    <option value="Ika">Ika</option>
+                    <option value="Isoko">Isoko</option>
+                    <option value="Ndokwa">Ndokwa</option>
+                    <option value="Oshimili">Oshimili</option>
+                    <option value="Patani">Patani</option>
+                    <option value="Sapele">Sapele</option>
+                    <option value="Udu">Udu</option>
+                    <option value="Ughelli">Ughelli</option>
+                    <option value="Ukwuani">Ukwuani</option>
+                    <option value="Uvwie">Uvwie</option>
+                    <option value="Warri">Warri</option>
+                </select>
+   
+                <button onclick="checkFormInput()" id="submit-btn" type="submit">Submit</button>
+
+            </form>
+
+        </main>
+        <footer>
+            <div class="left-footer">
+                <a href="#"><img class="logo-footer" src="./images/NADETSSU LOGO.jpg" alt=""></a>
+                <p>National Association of Delta State Students (NADETSSU OAU CHAPTER)</p>
+                <div class="footer-icons">
+                    <div class="icon-circle">
+                        <a href="www.instagram.com/nadesstuoauileife"><i class="fa-brands fa-instagram footer-instagram"></i> </a>                   
+                    </div>
+                    <div class="icon-circle">
+                        <a href="https://api.whatsapp.com/send?phone=2348136201537"><i class="fa-brands fa-whatsapp footer-whatsapp"></i></a>
+                        
+                    </div>
+                    <div class="icon-circle">
+                        <a href="mailto: nadesstuoauileife@gmail.com"><i class="fa-solid fa-envelope footer-mail"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="right-footer">
+                <p>Links</p>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./joinUs.html">Join Us</a></li>
+                    <li><a href="./index.html#about-us-section">About Us</a></li>
+                    <li><a href="./index.html#excos-section"> Executives </a></li>
+                    <li><a href="./index.html#gallery-section"> Gallery </a></li>
+                </ul>
+            </div>
+        </footer>
+        <a id="developer" href="www.twitter.com/Michael__TJ"><span>Developed by Tejiri.dev</span></a>
+
+
+
+    </div>
+    <script src="./script/function.js"></script>
+    <script src="./script/spinneronClick.js"></script>
+</body>
+</html>

@@ -6,7 +6,7 @@ let department ='';
 let emailAddress ='';
 let whatsappNumber ='';
 let submitBtn ='';
-
+let myForm = '';
 
 function checkFormInput(){
     surname = document.getElementById('surname').value;
@@ -16,10 +16,12 @@ function checkFormInput(){
     emailAddress =document.getElementById('email-address').value;
     whatsappNumber =document.getElementById('whatsapp-number').value;
     submitBtn =document.getElementById('submit-btn');
+    myForm = document.getElementById('my-form');
 
     console.log(surname, otherNames)
 
     if(surname!= '' && otherNames!= '' && faculty!= '' && department!= '' && emailAddress!= '' && whatsappNumber!= ''){
-        alert('surname is not empty')
+        alert(`${otherNames}, your response has been recorded`)
     }
+    // myForm.reset();
 }

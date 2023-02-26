@@ -176,7 +176,6 @@ main p{
     margin: auto;
 }
 #about-text{
-    margin: 15px 0;
     margin-right: 40px;
     overflow-y: hidden;
     text-align: justify;
@@ -206,22 +205,27 @@ main p{
     font-family: 'ZCOOL XiaoWei', sans-serif;
     font-size: 1.4em;
     text-decoration: underline;
+    padding-bottom: 5%;
+    color: rgba(0, 0, 0, 0.747);
     
 
-
+}
+.about-right h3{
+    margin: 4% 0 0 0;
 }
 #read-more-btn,.excos-position, .full-gallery{
     background: linear-gradient(180deg, #0099FF -64.17%, #0970AE 150%);
     color: white;
     padding: 5px 20px;
     border-radius: 50px;
+    margin: 15px 0;
 }
 .full-gallery{
     margin-left: 8%;
     margin-bottom: 8%;
 }
 #excos-section{
-    padding: 5% 8%;
+    padding: 10% 8%;
     background-color: #0099ff28;
 }
 .swiper{
@@ -348,13 +352,15 @@ main p{
 }
 #gallery-section{
     padding: 5% 8%;
-    margin-bottom: 20px;
+    position: relative;
+
+    /* margin-bottom: 100px; */
     
 }
 .gallery-card{
     margin-top: 2%;
     width: 400px;
-    height: 250px;
+    /* height: 250px; */
 }
 .gallery-img-container{
     width: 100%;
@@ -384,7 +390,6 @@ footer{
     display: flex;
     grid-template-columns: 20% 80% ;
     align-items: center;
-    margin: auto;
     /* justify-items: center; */
     justify-content: space-around;
     width: 100vw;

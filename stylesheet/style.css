@@ -165,10 +165,15 @@ main p{
     display: grid;
     grid-template-columns: 25% 75%;
     padding: 5% 0;
+    align-items: stretch;
+    justify-content: start;
+    justify-items: start;
+    align-self: self-start;
+
 }
 
 .about-left{
-    width: 250px;
+    width: 200px;
     aspect-ratio: 1/1;
     /* background-color: red; */
     border-radius: 50%;
@@ -205,7 +210,7 @@ main p{
     font-family: 'ZCOOL XiaoWei', sans-serif;
     font-size: 1.4em;
     text-decoration: underline;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
     color: rgba(0, 0, 0, 0.747);
     
 
@@ -225,12 +230,10 @@ main p{
     margin-bottom: 8%;
 }
 #excos-section{
-    padding: 10% 8%;
+    padding: 5% 8%;
     background-color: #0099ff28;
 }
-.swiper{
-    /* width: 950px; */
-}
+
 /* .excos-container{
     display: grid;
     grid-template-rows: 1fr;
@@ -450,13 +453,19 @@ footer p{
         width: 200px;
     }
     
-}@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 800px) {
     .about-left{
-        width: 150px;
+        width: 180px;
     }
     
 }
 @media screen and (max-width: 670px) {
+    #excos-section{
+        padding: 10% 8%;
+        background-color: #0099ff28;
+    }
+    
     #about-us-section{
         display: grid;
         grid-template-columns: 100%;

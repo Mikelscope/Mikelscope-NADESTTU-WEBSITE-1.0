@@ -246,7 +246,7 @@ main p{
 }
 .excos-card{
     /* width: 20px; */
-    height: 300px;
+    height: 350px;
     position: relative;
     display: flex;
     flex-direction: column;

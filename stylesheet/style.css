@@ -141,6 +141,7 @@ main p{
     padding: 7px 40px;
     border-radius: 30px;
     color: black;
+    user-select: none;
 }
 
 .circle-1{
@@ -447,6 +448,9 @@ footer p{
 }
 #developer{
     font-size: 0.6em;
+}
+#developer span{
+    text-align: center;
 }
 @media screen and (max-width: 1200px) {
     .about-left{
